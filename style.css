@@ -1,0 +1,77 @@
+*{
+	font-family: 'Ubuntu', sans-serif;
+	margin: 0;
+	padding: 0;
+}
+.container {
+	display: flex;
+	min-height: 100vh;
+}
+
+.nav-item  :hover{
+	border-radius: 8px;
+	background-color: rgb(11, 179, 216);
+	transition: all ease-in .2s;
+	
+
+}
+
+
+.display-4 {
+	font-weight: bold;
+}
+
+
+.card-body-icon {
+	position: absolute;
+	z-index: 0;
+	top: 25px;
+	right: 4px;
+	opacity: 0.4;
+	font-size: 70px;
+}
+.card {
+	box-shadow: 0 2px 7px rgba(0,0,0,0.3);
+}	
+
+.card a {
+	text-decoration: none;
+
+}
+.navbar-menu a {
+		text-decoration: none;
+
+}
+  
+
+.dropdown-menu a {
+	color: #4e6365;
+	transition: all ease-in .2s;
+}
+.dropdown-menu a:hover {
+	background-color: #fdfcfc;
+	transition: all ease-in .2s;
+}
+
+
+img {
+    position: center;
+	
+}
+
+
+.card .card-body-icon :hover {	
+	color: #1a337e;
+	margin: 25px;							
+}
+.navbar  .navbar-brand :hover{
+	color: #284cb7;
+}
+.navbar .main :hover {
+	color: #c91eb2b3;
+}
+.navbar .main :hover {
+	color: #ce9309f4;
+}
+
+
